@@ -1,0 +1,36 @@
+/* Legibility pass — preserves the approved layout and only increases type scale. */
+@media (min-width: 901px) {
+  .brand b{font-size:18px}.brand small{font-size:13px}
+  .sidebar nav button{font-size:14.5px}.sidebar nav button i{font-size:18px}
+  .help b{font-size:12px}.help small{font-size:10px}.profile b,.topuser b{font-size:11px}.profile small,.topuser small{font-size:10px}
+  .search input{font-size:13.5px}.search kbd{font-size:10px}.date{font-size:11px}
+
+  .incidentHead>div>small{font-size:13px}.incidentHead h1{font-size:34px}.incidentHead p{font-size:13.5px}
+  .resolvedBadge b{font-size:14px}.resolvedBadge small{font-size:10px}
+
+  .kpi span{font-size:12.5px}.kpi b{font-size:30px}.kpi small{font-size:10px}
+  .cardTitle>b{font-size:14.5px}.cardTitle button{font-size:10.5px}
+
+  .timelineRow time{font-size:10.5px}.timelineRow div b{font-size:11.5px}.timelineRow div p{font-size:10px}
+  .customerCount>b{font-size:32px}.customerCount>span{font-size:10px}
+  .planBars span,.planBars b{font-size:10.5px}
+  .healthRows>div>span{font-size:10.5px}.healthRows b{font-size:10.5px}.healthRows small{font-size:9.5px}
+  .evidenceCard th{font-size:8px}.evidenceCard td{font-size:9.5px}
+
+  .pageHead>small{font-size:11px}.pageHead h1{font-size:36px}.pageHead p{font-size:13.5px}
+  .sectionTitle b{font-size:15px}.sectionTitle span,.sectionTitle strong{font-size:10px}
+  .ticketList>button>b{font-size:11px}.ticketList strong{font-size:11.5px}.ticketList button span small{font-size:10px}.ticketList em,.ticketDetail em{font-size:9px}.ticketList>button>small,.ticketList time{font-size:9.5px}
+  .detailTop>span{font-size:11px}.ticketDetail h2{font-size:27px}.ticketDetail>p{font-size:13px}.detailMeta small{font-size:9px}.detailMeta b{font-size:12px}.ticketDetail section small{font-size:9px}.ticketDetail section p{font-size:12px}
+  .fullTimeline .timelineRow time{font-size:11px}.fullTimeline .timelineRow div b{font-size:13px}.fullTimeline .timelineRow div p{font-size:11px}
+  .summaryCard small{font-size:10px}.summaryCard span{font-size:11px}.summaryCard b{font-size:12px}.causeCard small{font-size:9px}.causeCard h3{font-size:17px}.causeCard p{font-size:12px}
+  .largeTable th{font-size:10px}.largeTable td{font-size:11px}.hypothesis small{font-size:9px}.hypothesis h2{font-size:21px}.hypothesis p{font-size:12px}
+  .disclaimer{font-size:9px}
+}
+
+@media (max-width: 900px) {
+  .incidentHead h1{font-size:30px}.incidentHead p{font-size:14px}
+  .kpi span{font-size:13px}.kpi small{font-size:11px}
+  .cardTitle>b{font-size:15px}.timelineRow div b{font-size:12px}.timelineRow div p{font-size:11px}
+  .healthRows>div>span,.healthRows b{font-size:11px}.healthRows small{font-size:10px}
+  .pageHead p{font-size:14px}.ticketDetail>p,.ticketDetail section p{font-size:13px}
+}
